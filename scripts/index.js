@@ -41,14 +41,14 @@ function fire() {
 		case 'spanish':
 			sessionData = spanishData.slice(0);
 			break;
+		case 'codenames':
+			sessionData = codenamesData.slice(0);
+			break;
 		case '2knouns':
 			sessionData = data.slice(0);
 			break;
 		case 'movies':
 			sessionData = movieData.slice(0);
-			break;
-		case 'codenames':
-			sessionData = codenamesData.slice(0);
 			break;
 		case 'custom':
 			if (customData.length === 0) {
